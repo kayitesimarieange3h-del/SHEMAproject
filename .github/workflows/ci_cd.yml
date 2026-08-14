@@ -11,23 +11,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Checkout du code
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2. Login Docker Hub
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
-          #password: ${{ secrets.DOCKERHUB_TOKEN }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      # 3. Build de l'image Docker (frontend ou backend)
       - name: Build Docker image
         run: |
-          docker build -t kayitesimarieange/shema:latest .
+          docker build -t kayitesimarieange3h/shema:latest .
 
-      # 4. Push vers Docker Hub
       - name: Push Docker image
         run: |
-          docker push kayitesimarieange/shema:latest
+          docker push kayitesimarieange3h/shema:latest
