@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Robe Shema Gold",
+      "price": 120,
+      "image": "/images/robe-gold.jpg",
+      "description": "Robe élégante dorée, signature Shema."
+    },
+    {
+      "id": 2,
+      "name": "Ensemble Royal",
+      "price": 150,
+      "image": "/images/ensemble-royal.jpg",
+      "description": "Ensemble bleu royal, coupe moderne."
+    },
+    {
+      "id": 3,
+      "name": "Robe Nuit Noire",
+      "price": 140,
+      "image": "/images/robe-noire.jpg",
+      "description": "Robe noire satinée, style soirée."
+    }
+  ],
+
+  "videos": [
+    {
+      "id": 1,
+      "title": "Défilé – Modèle 1",
+      "src": "/videos/modele1.mp4"
+    },
+    {
+      "id": 2,
+      "title": "Lookbook – Modèle 2",
+      "src": "/videos/modele2.mp4"
+    },
+    {
+      "id": 3,
+      "title": "Collection Femme – Modèle 3",
+      "src": "/videos/modele3.mp4"
+    }
+  ],
+
+  "users": []
+}
